@@ -1,0 +1,14 @@
+.test {
+    width: 30vw;
+    height: 30vh;
+    background-color: blue;
+}
+
+@media screen and (max-width: 800px) {
+    .test {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        display: block;
+    }
+}
